@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Nox" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/themeColor</item>
+        <item name="colorPrimaryVariant">@color/themeColorLighter</item>
+        <item name="colorOnPrimary">@color/backgroundDark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/themeColor</item>
+        <item name="colorSecondaryVariant">@color/themeColorLighter</item>
+        <item name="colorOnSecondary">@color/backgroundDark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/foregroundDark</item>
+        <item name="android:textColorPrimary">@color/foregroundDark</item>
+    </style>
+
+    <style name="Theme.Nox.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Nox.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Nox.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
